@@ -11,6 +11,7 @@ terraform {
     bucket = "workspace-env-nov-2k24"
     key    = "workspace.tfstate"
     region = "us-east-1"
+    dynamodb_table = "dynamodb-state-locking"
   }
 }
 
